@@ -1,0 +1,44 @@
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 173.203.207.28 (be patient)
+
+
+Server Software:        TornadoServer/0.1
+Server Hostname:        173.203.207.28
+Server Port:            80
+
+Document Path:          /form?color=black
+Document Length:        0 bytes
+
+Concurrency Level:      300
+Time taken for tests:   16.450 seconds
+Complete requests:      10000
+Failed requests:        0
+Write errors:           0
+Non-2xx responses:      10000
+Total transferred:      3890000 bytes
+HTML transferred:       0 bytes
+Requests per second:    607.90 [#/sec] (mean)
+Time per request:       493.499 [ms] (mean)
+Time per request:       1.645 [ms] (mean, across all concurrent requests)
+Transfer rate:          230.93 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  151 651.7      0    3010
+Processing:     0  267 1033.8     40   13240
+Waiting:        0  267 1033.7     40   13240
+Total:          0  418 1296.8     40   13250
+
+Percentage of the requests served within a certain time (ms)
+  50%     40
+  66%    100
+  75%    190
+  80%    240
+  90%    860
+  95%   3200
+  98%   3890
+  99%   5520
+ 100%  13250 (longest request)

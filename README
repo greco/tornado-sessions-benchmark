@@ -1,0 +1,8 @@
+#
+# Data from benchmarking a fork of Tornado with session support. You can get the 
+# source at http://github.com/milancermak/tornado
+# The writeup is located at http://milancermak.posterous.com/benchmarking-tornados-sessions-0
+#
+# Files show the output of Apache Bench. The process.py is the actual Tornado process
+# that was used in the benchmark.
+# 
